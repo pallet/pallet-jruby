@@ -1,0 +1,6 @@
+lib/*.jar
+ext/*.jar
+classes
+pkg
+logs
+notes.txt

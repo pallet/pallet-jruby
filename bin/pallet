@@ -1,0 +1,6 @@
+#!/usr/bin/env jruby
+require 'yaml'
+require 'rubygems'
+require 'pallet-ops'
+
+PalletOps::main(ARGV)
