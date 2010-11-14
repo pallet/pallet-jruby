@@ -1,0 +1,33 @@
+pallet-ops is a gem for using {pallet}[http://github.com/hugoduncan/pallet].
+
+== DESCRIPTION
+
+    $ jruby -S gem install pallet-ops
+    $ jruby pallet help
+
+By default cloud credentials are specified in `~/.pallet/config.yml`.
+
+    providers:
+      rackspace:
+        provider: "cloudservers"
+        identity: "your username"
+        credential: "your key"
+      aws:
+        provider: "ec2"
+        identity: "your key"
+        credential: "your secret-key"
+
+By default, the first credentials are used.  You can specify which credentials
+to use with `-P`, eg:
+
+    $ jruby pallet -P aws nodes
+
+== INSTALL
+
+    $ jruby -S gem install pallet-ops
+
+== LICENSE
+
+Copyright (c) 2010 Hugo Duncan
+
+{Licensed under EPL}[http://www.eclipse.org/legal/epl-v10.html].
